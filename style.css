@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+    /* font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック", "ヒラギノ角ゴ Pro W3","sans-serif"; */
+    font-family:Georgia,serif;
+    margin:40px 50px 40px 50px
+}
+#detail{
+    font-size: 1.5rem;
+}
+#detail ul li p b{
+    margin:0px 20px 20px 10px
+}
+
+li{
+    list-style-type:none;
+}
+.archive-list ul {
+    font-size: 1.5rem;
+    margin:-10px 0px 0px 0px
+}
+.archive-list ul li{
+    font-size: 1rem;
+    margin:-15px 20px 20px 20px
+}
+.logo{
+    border-radius: 5px;
+}
+#photo{
+    text-align: center;
+}
