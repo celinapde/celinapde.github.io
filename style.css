@@ -1,30 +1,177 @@
 @charset "UTF-8";
 body{
-    /* font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック", "ヒラギノ角ゴ Pro W3","sans-serif"; */
-    font-family:Georgia,serif;
-    margin:40px 50px 40px 50px
+    font-family: "Yu Gothic", "Meiryo", sans-serif;
+    margin:0;
+    padding:0;
+    background-position: top;
+    position: relative;
 }
-#detail{
-    font-size: 1.5rem;
+html{
+    margin:0;
+    padding:0;
 }
-#detail ul li p b{
-    margin:0px 20px 20px 10px
+a{
+    text-decoration:none;
 }
-
-li{
-    list-style-type:none;
+header{
+    background-color:#ffffff;
+    height: 80px;
+    line-height: 90px;
+    border-bottom: 2px solid #bbbbbb;    
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
-.archive-list ul {
-    font-size: 1.5rem;
-    margin:-10px 0px 0px 0px
+header .header-logo{
+    padding: 6px 0 0 80px;
 }
-.archive-list ul li{
-    font-size: 1rem;
-    margin:-15px 20px 20px 20px
+header .header-logo img{
+    width: 132px;
+    height: 72px;
 }
-.logo{
-    border-radius: 5px;
+header .list ul{ 
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px auto;
+    list-style: none;
 }
-#photo{
+header ul li{ 
+    margin-right: 50px;
+    min-width:100px;
+}
+.main .free-space{
+    margin: 80px auto auto auto;
+    width: 100%;
+}
+.main .profile{
     text-align: center;
+}
+.main .profile img{
+    margin: 80px auto auto auto;
+}
+#academic-career{
+    border-top:80px solid #ffffff;
+}
+#laboratory{
+    border-top:80px solid #ffffff;
+}
+#publication{
+    border-top:80px solid #ffffff;
+}
+section{
+    border-left: 400px solid #ffffff;
+    border-right: 400px solid #ffffff;
+}
+tr:first-child td{
+    font-size: 20px;
+}
+td{
+    font-size: 18px;
+}
+.content{
+    text-align: center;
+}
+.list-year{
+    font-size: 20px;
+}
+li{
+    list-style:none;
+    font-size: 18px;
+}
+footer{
+    background-color: #555555;
+    color:#bbbbbb;
+    display: flex;
+    line-height: 100px;
+    text-align: center;
+}
+footer div{
+    margin: 0 auto;
+}
+@media only screen and (max-width: 480px){
+    header .header-logo{
+        padding: 8px 0 0 30px;
+    }
+    header .header-logo img{
+        width: 121px;
+        height: 66px;
+    }
+    header ul li{
+        display: none;
+    }
+    section{
+        border-left: 10px solid #ffffff;
+        border-right: 10px solid #ffffff;
+    }
+    tr:first-child td{
+        font-size: 15px;
+    }
+    td{
+        font-size: 13px;
+    }
+    .list-name{
+        font-size: 15px;
+    }
+    li{
+        list-style:none;
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 640px){
+    header .header-logo{
+        padding: 8px 0 0 40px;
+    }
+    header .header-logo img{
+        width: 121px;
+        height: 66px;
+    }
+    header ul li{
+        display: none;
+    }
+    section{
+        border-left: 20px solid #ffffff;
+        border-right: 20px solid #ffffff;
+    }
+}
+@media only screen and (min-width: 641px) and (max-width: 768px){
+    header .header-logo{
+        padding: 8px 0 0 50px;
+    }
+    header .header-logo img{
+        width: 121px;
+        height: 66px;
+    }
+    header ul li{
+        margin-right: 30px;
+        min-width:60px;
+        font-size: 15px;
+    }
+    section{
+        border-left: 50px solid #ffffff;
+        border-right: 50px solid #ffffff;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 960px){
+    header ul li{
+        margin-right: 40px;
+        min-width:70px;
+        font-size: 16px;
+    }
+    section{
+        border-left: 100px solid #ffffff;
+        border-right: 100px solid #ffffff;
+    }
+}
+@media only screen and (min-width: 961px) and (max-width: 1280px){
+    section{
+        border-left: 200px solid #ffffff;
+        border-right: 200px solid #ffffff;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1470px){
+    section{
+        border-left: 300px solid #ffffff;
+        border-right: 300px solid #ffffff;
+    }
 }
